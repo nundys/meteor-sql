@@ -26,7 +26,7 @@ Devwik.SQL.execStatement = function(statement, transaction) {
 			console.log(err);
 			console.log(err.stack);
 		}
-		future.ret(result);
+		future['return'](result);
 	});
 	return(future.wait());
 };

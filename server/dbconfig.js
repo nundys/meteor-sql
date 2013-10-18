@@ -6,7 +6,7 @@ Devwik.SQL.Config ={};
 Devwik.SQL.Config.database ='meteor';
 Devwik.SQL.Config.user ='meteor';
 Devwik.SQL.Config.host ='localhost';
-Devwik.SQL.Config.password = '43b27d6bf68d30';
+Devwik.SQL.Config.password = 'meteor';
 Devwik.SQL.Config.dbConfig = {
 	host     : Devwik.SQL.Config.host,
 	database : Devwik.SQL.Config.database,

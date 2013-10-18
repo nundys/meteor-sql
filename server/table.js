@@ -30,7 +30,7 @@ Devwik.SQL.Table = function(name) {
 				console.log('NO Key in:' + self.name);
 			}
 		}
-		future.ret();
+		future['return']();
 	}, self);
 	future.wait();
 
